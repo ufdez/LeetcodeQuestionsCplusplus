@@ -1,0 +1,9 @@
+teacher a teddy bear 
+shes gives teddy bear to a group of childern
+childern passes teddy bear 8 times around and removes one child
+countines until there only one child
+each child has id
+given k number of times
+given list of childern
+remembers where teddy bear was left on
+

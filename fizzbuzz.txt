@@ -1,0 +1,58 @@
+// fizzbuzz problem simple 
+#include <iostream>
+#include <string>
+using namespace std; 
+int main()
+{
+  for(int i=1; i<=100; i++)
+  {
+  if(i%3==0)
+  {
+      cout<<"fizz, ";
+  }
+  else if(i%5==0)
+  {
+  cout<<"buzz, ";   
+  }
+  else if(i%15==0)
+  {
+  cout<<"fizzbuzz, ";
+  }
+  else{
+  cout<<i <<", ";
+  }
+  }
+  return 0;
+} 
+
+
+// fizzbuzz problem call function
+#include <iostream>
+#include <string>
+using namespace std; 
+int fizzbuzz(int start,int end)
+{
+for(int i=start; i<=end; i++)
+  {
+  if(i%3==0)
+  {
+  cout<<"fizz, ";
+  }
+  else if(i%5==0)
+  {
+  cout<<"buzz, ";   
+  }
+  else if(i%15==0)
+  {
+  cout<<"fizzbuzz, ";
+  }
+  else{
+  cout<<i <<", ";
+  }   
+}
+}
+int main()
+{
+ fizzbuzz(1,100);
+  return 0;
+} 
